@@ -52,6 +52,3 @@ Also provide:
 * SQL script to create the database and table
 * Comments in the code explaining what each part does
 * Instructions to run the project using http://localhost/first-php-project
-
-
-use these instructions
