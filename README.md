@@ -1,54 +1,115 @@
-Create a very simple beginner-level Todo List web application using PHP and MySQL.
+# 📝 Todo List App
 
-Environment:
+A simple **Todo List Web Application** that helps users manage daily tasks efficiently. Users can add tasks, mark them as completed, and remove tasks when finished. Todo list apps are commonly used for organizing work and improving productivity.
 
-* The project will run on XAMPP.
-* Project folder path: C:\xampp\htdocs\first-php-project
-* PHP version: 8+
-* Use MySQL database from phpMyAdmin.
+---
 
-Requirements:
+# 📌 Features
 
-* Use plain PHP (no frameworks).
-* Use MySQLi for database connection.
-* Keep the code very simple so a beginner can understand it.
-* Use basic HTML and a little CSS.
+* ➕ Add new tasks
+* ✅ Mark tasks as completed
+* ❌ Delete tasks
+* 📋 View all tasks in one list
+* 💻 Simple and user-friendly interface
 
-Features:
+---
 
-1. Add a new task
-2. Display all tasks
-3. Mark a task as completed
-4. Delete a task
+# 🛠️ Technologies Used
 
-Database:
-Create a database called "todo_app".
+* **HTML** – Structure of the application
+* **CSS** – Styling and layout
+* **JavaScript / PHP** – Application logic
+* **MySQL** – Database for storing tasks
 
-Create a table called "tasks" with fields:
+---
 
-* id (INT AUTO_INCREMENT PRIMARY KEY)
-* task (VARCHAR 255)
-* status (VARCHAR 20 DEFAULT 'pending')
+# 📂 Project Structure
 
-Project File Structure inside first-php-project:
+```
+Todo-List-App
+│
+├── css/                # Stylesheets
+├── js/                 # JavaScript files
+├── includes/           # Database and backend files
+├── index.php           # Main page
+├── add.php             # Add new task
+├── delete.php          # Delete task
+└── README.md           # Project documentation
+```
 
-first-php-project/
-db.php
-index.php
-add_task.php
-complete_task.php
-delete_task.php
-style.css
+---
 
-Interface:
+# ⚙️ Installation & Setup
 
-* A text input field to enter a task
-* "Add Task" button
-* Show tasks in a simple table
-* Each task should have "Complete" and "Delete" buttons
+### 1️⃣ Clone the repository
 
-Also provide:
+```bash
+git clone https://github.com/kavindisathsarani/Todo-List-App.git
+```
 
-* SQL script to create the database and table
-* Comments in the code explaining what each part does
-* Instructions to run the project using http://localhost/first-php-project
+### 2️⃣ Move into the project folder
+
+```bash
+cd Todo-List-App
+```
+
+### 3️⃣ Set up the database
+
+1. Open **phpMyAdmin**
+2. Create a database named:
+
+```
+todo_app
+```
+
+3. Import the provided SQL file (if available).
+
+---
+
+### 4️⃣ Run the project
+
+1. Move the project to your **XAMPP / WAMP htdocs folder**
+
+Example:
+
+```
+C:\xampp\htdocs\Todo-List-App
+```
+
+2. Start:
+
+* Apache
+* MySQL
+
+3. Open in browser:
+
+```
+http://localhost/Todo-List-App
+```
+
+---
+
+# 🚀 Future Improvements
+
+* Edit tasks
+* Add due dates
+* Task priority levels
+* User authentication
+* Responsive mobile design
+
+---
+
+# 👩‍💻 Author
+
+**Kavindi Sathsarani**
+
+* GitHub: [https://github.com/kavindisathsarani](https://github.com/kavindisathsarani)
+
+---
+
+# 📜 License
+
+This project is open-source and available for learning and educational purposes.
+
+---
+
